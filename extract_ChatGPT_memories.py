@@ -143,7 +143,7 @@ def extract_and_debug_paragraphs(html_file_path, output_file_path, target_phrase
                 output_file.write("2. Use Ctrl+F to search for the text previews shown above\n")
                 output_file.write("3. Block position X means it's the X-th <pre class=\"message\"> tag in the file\n")
                 output_file.write("4. You can also search for '<pre class=\"message\">' and count to find the right block\n")
-                output_file.write("If you found this tool helpfull, consider donating to ko-fi.com/tonalfillies7\n")
+                output_file.write("If you found this tool helpful, consider donating to ko-fi.com/tonalfillies7\n")
         
         # Console output
         print(f"\nTotal instances of '{target_phrase}' found: {len(target_instances) + len(skipped_instances)}")
